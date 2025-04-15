@@ -1,13 +1,13 @@
-import TodoList from '@/app/components/todolist';
 import React from 'react';
+import TodoList from '../components/todolist';
 
-function page() {
+
+function Page() {
   return (
     <>
-      <h1>Landing Page </h1>
       <TodoList />
-    </>
+      </>
   );
 }
 
-export default page;
+export default Page;
